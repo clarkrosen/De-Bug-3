@@ -57,6 +57,7 @@ function draw() {
  
   var lapInverse = map(laps, 0, 100, width/2, 0);
   background(255,255,255);
+  
   stroke(0);
   ellipse(width/2, height/2, lapInverse, lapInverse);
   
@@ -65,3 +66,6 @@ function draw() {
   ellipse(x, y, circleSize, circleSize);
   x = x + (xDirection * speed);
   y = y + (yDirection * speed);
+  
+  
+}
